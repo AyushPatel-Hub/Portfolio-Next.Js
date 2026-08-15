@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex gap-4 items-center mt-10 ">
          <Button item={"Contact me"} link={"/Contact"}></Button>
          <Button item={"Projects"} link={"/Projects"}></Button>
-         <Button item={"Resume"} link={"https://drive.google.com/file/d/1TCEN8nWSfaIVNOQqpqJwpLBJGNpXjv_Z/view?usp=drive_link"}></Button>
+         <Button item={"Resume"} link={"https://drive.google.com/file/d/1gKfNmNH00MQhceL5LaJRM-bmy7PosCMc/view?usp=sharing"}></Button>
       </div>
       </div>
       </FadeIn>
