@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Personal Portfolio Website
 
-## Getting Started
+A modern, interactive personal portfolio website showcasing projects, skills, and experience. Built with **Next.js (App Router)**, **Tailwind CSS**, and interactive **3D Spline elements**, deployed seamlessly on **Vercel**.
 
-First, run the development server:
+🌐 **Live Demo:** [portfolio-next-js-gold-ten.vercel.app](https://portfolio-next-js-gold-ten.vercel.app/)
 
-```bash
+---
+
+## ✨ Features
+
+- **Interactive 3D Graphics:** Integrated Spline 3D models for an immersive hero section.
+- **Modern UI & Aesthetic:** Dark mode design featuring glassmorphism, custom micro-interactions, and smooth transitions.
+- **Dynamic Navigation:** Page-aware smooth scrolling and custom routing using Next.js App Router hooks.
+- **Component-Driven Architecture:** Clean, modular React components for high performance and maintainability.
+- **Fluid Animations:** Powered by Framer Motion for scroll-triggered reveal effects.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **3D Design:** [Spline](https://spline.design/)
+- **Animations:** [Framer Motion](https://framer.com/motion)
+- **Icons:** [Material UI Icons](https://mui.com/material-ui/material-icons/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+Ensure you have **Node.js** (v18 or higher) installed on your system.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/AyushPatel-Hub/Portfolio-Next.Js.git](https://github.com/AyushPatel-Hub/Portfolio-Next.Js.git)
+   cd Portfolio-Next.Js
+   Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open in browser:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to http://localhost:3000 to view the site locally.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📂 Project Structure
+Plaintext
+├── app/                  # Next.js App Router pages and layouts
+├── components/           # Reusable UI components (Buttons, Navbar, Footer, etc.)
+├── public/               # Static assets (images, icons, vectors)
+├── globals.css           # Global styles and Tailwind imports
+└── package.json          # Dependencies and build scripts
+📦 Deployment
+This project is configured for continuous deployment on Vercel:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build Command: next build
 
-## Learn More
+Output Directory: .next
 
-To learn more about Next.js, take a look at the following resources:
+Any updates pushed to the main branch automatically trigger a new deployment on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👤 Author
+Ayush Patel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Website: portfolio-next-js-gold-ten.vercel.app
 
-## Deploy on Vercel
+GitHub: @AyushPatel-Hub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LinkedIn: Ayush Patel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+X (Twitter): @AyushPatl007
