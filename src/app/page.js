@@ -16,7 +16,7 @@ import Contact from './Contact/page';
 
 export default function Home() {
   return (<div id='top'>
-    <div className="p-10 w-screen h-screen p-4  items-center text-white text-sm md:text-xl lg:text-8xl flex justify-between flex-wrap">
+    <div className="p-10 w-full min-h-screen px-4  sm:px-8 py-10 items-center text-white text-sm md:text-xl lg:text-8xl flex flex-col lg:flex-row justify-between gap-10">
       <FadeIn>
         <div>
         <h1 className="text-sm md:text-xl lg:text-6xl">HELLO!</h1>
@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex gap-4 items-center mt-10 ">
          <Button item={"Contact me"} link={"/Contact"}></Button>
          <Button item={"Projects"} link={"/Projects"}></Button>
-         <Button item={"Resume"} link={"https://drive.google.com/file/d/1gKfNmNH00MQhceL5LaJRM-bmy7PosCMc/view?usp=sharing"}></Button>
+         <Button item={"Resume"} link={"https://drive.google.com/file/d/1Abh6l-emGAzQ8oPe_eVUlvROxIsfOKgR/view?usp=sharing"}></Button>
       </div>
       </div>
       </FadeIn>

@@ -26,9 +26,53 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ayush Patel",
-  description: "Full Stack Developer",
+  metadataBase: new URL("https://portfolio-next-js-gold-ten.vercel.app"),
+  title: {
+    default: "Ayush Patel | Full Stack & AI Developer",
+    template: "%s | Ayush Patel",
+  },
+  description:
+    "Portfolio of Ayush Patel — Full Stack Developer specializing in Next.js, React, Node.js, and AI integration.",
+  keywords: [
+    "Ayush Patel",
+    "Full Stack Developer",
+    "Next.js Portfolio",
+    "React Developer",
+    "AI Developer",
+    "Lucknow Developer",
+  ],
+  authors: [{ name: "Ayush Patel", url: "https://portfolio-next-js-gold-ten.vercel.app" }],
+  creator: "Ayush Patel",
+  openGraph: {
+    title: "Ayush Patel | Full Stack & AI Developer",
+    description:
+      "Explore projects, technical skills, web development experience, and certifications by Ayush Patel.",
+    url: "https://portfolio-next-js-gold-ten.vercel.app",
+    siteName: "Ayush Patel Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Ayush Patel - Full Stack Developer Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ayush Patel | Full Stack & AI Developer",
+    description:
+      "Explore projects, technical skills, web development experience, and certifications by Ayush Patel.",
+    creator: "@AyushPatl007",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (

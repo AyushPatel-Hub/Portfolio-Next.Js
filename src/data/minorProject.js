@@ -91,8 +91,8 @@ export const MinorProjects = [
   subtitle: 'A contact management application built with React and Firebase.',
   description: 'Firebase Contact App is a responsive contact management application developed using React and Firebase Database. It allows users to add and store contact details such as names and email addresses, with Firebase providing persistent data storage and React handling the interactive user interface.',
   tags: ['React', 'JavaScript', 'Firebase', 'Firebase Database'],
-  liveUrl: 'YOUR_LIVE_URL',
-  githubUrl: 'YOUR_GITHUB_URL',
+  // liveUrl: 'YOUR_LIVE_URL',
+  githubUrl: 'https://github.com/AyushPatel-Hub/React-Practice-Project/tree/main/project-5',
   challenges: [
     'Connected a React application with Firebase Database for persistent contact storage.',
     'Created a contact form to collect and submit names and email addresses.',
