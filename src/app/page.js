@@ -83,7 +83,7 @@ import Contact from './Contact/page';
 
 export default function Home() {
   return (
-    <div id='top' >
+    <div id='top'>
       <div className="p-4 sm:p-8 lg:p-10 w-full min-h-screen items-center text-white text-3xl sm:text-5xl md:text-6xl lg:text-8xl flex flex-col lg:flex-row justify-between gap-10">
         <FadeIn>
           <div>

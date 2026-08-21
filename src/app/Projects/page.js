@@ -48,6 +48,7 @@ import FadeIn from '@/components/FadeIn';
 
 const Project = () => {
   return (
+    <>
     <FadeIn>
       <div className="flex justify-center items-center w-full max-w-full min-h-[50%] flex-col mt-10 md:mt-20">
         <div>
@@ -91,6 +92,7 @@ const Project = () => {
         </div>
       </div>
     </FadeIn>
+    </>
   );
 };
 
