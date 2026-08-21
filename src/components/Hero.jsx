@@ -21,7 +21,7 @@ export default function App() {
           alt="Hero background"
           fill
           priority
-          className="object-cover object-center opacity-80"
+          className="object-cover object-center opacity-80 z-[-10]"
         />
         {/* Optional dark overlay to ensure text stays readable */}
         <div className="absolute inset-0 bg-black/40" />

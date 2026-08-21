@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
   return (
-    <div className=" bottom-0 left-0 w-full max-w-full bg-black min-h-20 h-auto sm:h-20 flex-col sm:flex-row flex justify-between items-center px-4 sm:px-8 lg:p-10 py-6 sm:py-0 gap-4 sm:gap-0  ">
+    <div className=" bottom-0 left-0 w-full max-w-full bg-black min-h-20 h-auto sm:h-20 flex-col sm:flex-row flex justify-between items-center px-4 sm:px-8 lg:p-10 py-6 sm:py-0 gap-4 sm:gap-0 z-10  ">
         <div className="flex items-center flex-col">
             <p className='flex gap-4 text-xl sm:text-2xl lg:text-3xl items-center'>
                 <a href='https://github.com/AyushPatel-Hub'><GitHubIcon/></a> 
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center flex-col text-xs sm:text-sm md:text-base lg:text-sm text-center">
             <p>Build with</p>
-            <span className="text-zinc-400">Next.js & Tailwind</span>
+            <span className="text-white-400">Next.js & Tailwind</span>
         </div>
     </div>
   )
