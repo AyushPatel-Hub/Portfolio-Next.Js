@@ -31,3 +31,66 @@ html.lenis, html.lenis body {
   box-shadow: 2px 2px 10px white;
 
 }
+html, body {
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  overflow-x: hidden;
+}
+
+/* @import "tailwindcss";
+
+
+html {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+html, body {
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+
+@media (max-width: 600px) {
+  #stack {
+    @apply text-white;
+  }
+}
+
+#icons:hover {
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 2px 2px 10px white;
+} */

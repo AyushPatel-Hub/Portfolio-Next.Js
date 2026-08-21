@@ -184,7 +184,7 @@ export default function RootLayout({ children }) {
       >
         <AppRouterCacheProvider>
           <NavBar />
-          <main className="flex-1 flex flex-col w-full relative z-10">
+          <main className="flex-1 flex flex-col w-full relative z-10 pt-20 sm:pt-24 ">
             <App />
             <SmoothScroll>{children}</SmoothScroll>
           </main>

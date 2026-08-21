@@ -34,14 +34,9 @@ import Lenis from 'lenis';
 
 export default function SmoothScroll({ children }) {
   useEffect(() => {
-    // Only initialize smooth scrolling on desktop devices
-    const isTouchDevice =
-      'ontouchstart' in window ||
-      navigator.maxTouchPoints > 0 ||
-      window.innerWidth < 768;
-
-    if (isTouchDevice) {
-      return; // Do nothing on phones; lets native mobile momentum scroll smoothly
+    // Completely disable Lenis on mobile devices so phones use native GPU scrolling
+    if (window.innerWidth < 768) {
+      return;
     }
 
     const lenis = new Lenis({
@@ -52,7 +47,6 @@ export default function SmoothScroll({ children }) {
     });
 
     let rafId;
-
     function raf(time) {
       lenis.raf(time);
       rafId = requestAnimationFrame(raf);
@@ -61,7 +55,7 @@ export default function SmoothScroll({ children }) {
     rafId = requestAnimationFrame(raf);
 
     return () => {
-      cancelAnimationFrame(rafId);
+      if (rafId) cancelAnimationFrame(rafId);
       lenis.destroy();
     };
   }, []);

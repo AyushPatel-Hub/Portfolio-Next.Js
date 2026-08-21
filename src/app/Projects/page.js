@@ -56,7 +56,7 @@ const Project = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center w-full max-w-7xl p-4 sm:p-8 lg:p-20 gap-8 lg:gap-6">
+        <div className="flex flex-col lg:flex-row justify-center lg:justify-center items-center w-full max-w-7xl p-4 sm:p-8 lg:p-20 gap-8 lg:gap-6">
           {MajorProjects.map((data) => (
             <div key={data.slug} className="w-full flex justify-center">
               <Card
