@@ -141,6 +141,20 @@ export const metadata = {
   ],
   authors: [{ name: "Ayush Patel", url: "https://portfolio-next-js-gold-ten.vercel.app" }],
   creator: "Ayush Patel",
+   alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
     title: "Ayush Patel | Full Stack & AI Developer",
     description:
@@ -172,6 +186,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Ayush Patel",
+    url: "https://portfolio-next-js-gold-ten.vercel.app",
+    jobTitle: "Full Stack & AI Developer",
+    sameAs: [
+      "https://x.com/AyushPatl007",
+    ],
+    knowsAbout: ["Next.js", "React", "Node.js", "AI Integration", "Web Development"],
+  };
+
   return (
     <html
       lang="en"
@@ -182,6 +208,10 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
         className="flex flex-col min-h-screen bg-zinc-950 text-white font-(family-name:--font-montserrat) font-extralight tracking-[0.15em] overflow-x-hidden relative"
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <AppRouterCacheProvider>
           <NavBar />
           <main className="flex-1 flex flex-col w-full relative z-10 pt-20 sm:pt-20 ">

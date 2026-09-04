@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-next-js-gold-ten.vercel.app/sitemap.xml
