@@ -141,6 +141,10 @@ export const metadata = {
   ],
   authors: [{ name: "Ayush Patel", url: "https://portfolio-next-js-gold-ten.vercel.app" }],
   creator: "Ayush Patel",
+ verification: {
+    google: "3QFSPAlw1c5ywir7L_fWB7k3wTynjhtU9r9v_pej2wQ",
+  },
+
    alternates: {
     canonical: "/",
   },
