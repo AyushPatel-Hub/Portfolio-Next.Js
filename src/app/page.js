@@ -96,7 +96,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-3 sm:gap-4 items-center mt-8 lg:mt-10">
               <Button item={"Contact me"} link={"/Contact"} />
               <Button item={"Projects"} link={"/Projects"} />
-              <Button item={"Resume"} link={"https://drive.google.com/file/d/1Abh6l-emGAzQ8oPe_eVUlvROxIsfOKgR/view?usp=sharing"} />
+              <Button item={"Resume"} link={"https://drive.google.com/file/d/1vE8t7zUJGDoQJUWbKo3iYJ_4Odf1YirV/view?usp=drive_link"} />
             </div>
           </div>
         </FadeIn>
@@ -108,7 +108,8 @@ export default function Home() {
             <p className="text-zinc-300">JavaScript • Java • Tailwind • CSS</p>
             <p className="text-zinc-300">MongoDB • MySQL • REST APIs</p>
 
-            <div className="flex justify-end mt-2">
+            <div className="flex justify-end mt-2 gap-5">
+              <Button item={"Leetcode"} link={"https://leetcode.com/u/AyushPatel001/"} />
               <Button item={"More"} link={"/Skills"} />
             </div>
           </div>

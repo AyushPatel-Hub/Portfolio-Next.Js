@@ -99,6 +99,7 @@ const Contact = () => {
           <Link id="icons" href={"https://github.com/AyushPatel-Hub"}><Image className="w-8 h-8 sm:w-10 sm:h-10 lg:w-[50px] lg:h-[50px]" alt="css3" width={50} height={50} src={"/icons8-github-100.png"} /></Link>
           <Link id="icons" href={"https://www.instagram.com/ayush.patel200/?hl=en"}><Image className="w-8 h-8 sm:w-10 sm:h-10 lg:w-[50px] lg:h-[50px]" alt="css3" width={50} height={50} src={"/icons8-instagram-logo-100.png"} /></Link>
           <Link id="icons" href={"https://www.linkedin.com/in/ayushpatelcse/"}><Image className="w-8 h-8 sm:w-10 sm:h-10 lg:w-[50px] lg:h-[50px]" alt="css3" width={50} height={50} src={"/icons8-linkedin-100.png"} /></Link>
+          <Link id="icons" href={"https://leetcode.com/u/AyushPatel001/"}><Image className="w-8 h-8 sm:w-10 sm:h-10 lg:w-[50px] lg:h-[50px]" alt="css3" width={50} height={50} src={"/icons8-leetcode-96.png"} /></Link>
         </div>
       </FadeIn>
     </>
