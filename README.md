@@ -69,7 +69,7 @@ Output Directory: .next
 
 Any updates pushed to the main branch automatically trigger a new deployment on Vercel.
 
-👤 Author
+👤 Author--
 Ayush Patel
 
 Website: portfolio-next-js-gold-ten.vercel.app
