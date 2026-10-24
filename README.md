@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio Website
 
-A modern, interactive personal portfolio website showcasing projects, skills, and experience. Built with **Next.js (App Router)**, **Tailwind CSS**, and interactive **3D Spline elements**, deployed seamlessly on **Vercel**.
+A modern, interactive personal portfolio website showcasing projects, skills, and experience. Built with **Next.js (App Router)**, **Tailwind CSS**, and interactive **3D Spline elements**, deployed seamlessly on **Vercel**...
 
 🌐 **Live Demo:** [portfolio-next-js-gold-ten.vercel.app](https://portfolio-next-js-gold-ten.vercel.app/)
 
